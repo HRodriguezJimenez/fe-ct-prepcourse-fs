@@ -236,6 +236,19 @@ function breakStatement(num) {
    // la ejecución y retornar el string: "Se interrumpió la ejecución".
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
+   
+      var result = [];
+      for (var i = 0; i < 10; i++) {
+        num += 2;
+        result.push(num);
+        if (num === i) {
+          return 'Se interrumpió la ejecución';
+        }
+      }
+      return result;
+   
+    
+
 }
 
 function continueStatement(num) {
@@ -245,6 +258,19 @@ function continueStatement(num) {
    // se continua con la siguiente iteración.
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
+   const resultArray = [];
+
+   for (let i = 0; i < 10; i++) {
+   //Verificamos si la variable de iteración es 5 para que cuando sea asi continue con la iteración siguiente y siga ejecutando el bucle.
+     if (i === 5) {
+       continue;
+     }
+   //Cuando la variable de iteración sea diferente a 5 continuamos con la ejecución del bucle realizando el proceso que queremos realizar.  
+     num += 2;
+     resultArray.push(num);
+   }
+   
+   return resultArray;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/

@@ -231,7 +231,7 @@ describe('JAVASCRIPT III', function () {
    describe('EXTRA CREDIT | breakStatement(num)', function () {
       it('Debe retornar un arreglo con los elementos incrementados en dos', function () {
          expect(breakStatement(50)).toEqual([
-            52, 54, 56, 58, 60, 62, 64, 66, 68, 70,
+            52, 54, 56, 58, 60, 62, 64, 66, 68, 70,                      
          ]);
       });
       it('La ejecución se debe interrumpir en el caso pedido', function () {
