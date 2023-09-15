@@ -23,7 +23,7 @@ describe('EJERCICIOS EXTRA', function () {
          ]);
       });
    });
-   describe('numberOfCharacters(string)', function () {
+   describe.only('numberOfCharacters(string)', function () {
       it('Debe retornar un objeto donde cada par clave:valor sea una letra:cantidadDeRepeticiones del string recibido', function () {
          expect(numberOfCharacters('sktpwrroqstkrpwwsqtqopwktsd')).toEqual({
             s: 4,
