@@ -43,10 +43,27 @@ si es js, css, html, etc.
 3. Ingresamos a la carpeta que acabamos de crear.
 - cd "nombre de la carpeta"
 
-4 Creamos un archivo en la carpeta.
+4. Creamos un archivo en la carpeta.
 - touch "Harold.js"
 
+5. Si queremos abrir la carpeta en VScode de una vez podemos escribir el comando:
+- code "nombreDelArchivo"
 
+6. Para que nuestra carpeta local se convierta en un reposiotorio en GitHub lo hacemos con el comando:
+- git init
+
+//? Commit: captura instantánea de los cambios preparados en ese momento del proyecto.
+
+7. Para agregar los cambios que deseamos subir al repositorio escribimos el comando:
+- git add "nombreDelArchivo" = unicamente se suben los cambios de ese archivo.
+- git add . = subimos los cambios generados en todos los archivos que tengan cambios.
+
+//* git status = nos muestra el estado actual del repositorio en el que estamos trabajando.
+
+8. Al crear el commit le podemos agregar un mensaje descriptivo de los cambios realizados.
+- git commit -m "mensajeDelCommit"
+
+//* git log = nos muestra una lista con los commits realizados en el repositorio.
 
 
 
