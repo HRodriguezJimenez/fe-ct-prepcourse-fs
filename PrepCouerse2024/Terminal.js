@@ -32,7 +32,19 @@ si es js, css, html, etc.
 
 - help -> Muestra en pantalla una lista de comandos básicos.
 
+//? Crear un repositorio en Git.
 
+1. Ingresamos a la terminal y nos ubicamos en el escritorio.
+- cd Desktop
+
+2. Creamos una carpeta en nuestra computadora.
+- mkdir "nombre de la carpeta"
+
+3. Ingresamos a la carpeta que acabamos de crear.
+- cd "nombre de la carpeta"
+
+4 Creamos un archivo en la carpeta.
+- touch "Harold.js"
 
 
 
